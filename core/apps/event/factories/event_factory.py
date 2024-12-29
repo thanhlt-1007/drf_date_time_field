@@ -7,3 +7,4 @@ class EventFactory(DjangoModelFactory):
         model = "event.Event"
 
     name = Faker(provider="name")
+    start_at = Faker(provider="date_time")
